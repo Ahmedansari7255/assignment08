@@ -84,6 +84,7 @@ body{
 .bnav{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
     padding-top: 9.5rem;
@@ -332,6 +333,22 @@ body{
     
 }
 
+.logonew{
+    display: none;
+}
+
+.fabar{
+    display: none;
+}
+
+.bell{
+    display: none;
+}
+
+.bnav2{
+    display: none;
+}
+
 
 
 
@@ -367,6 +384,153 @@ body{
         overflow-x: hidden;
     }
 
+}
+
+@media screen and (min-width:360px) and (max-width:450px){
+    body{
+        z-index: 1;
+    }
+
+    .nav{
+        height: 14vh;
+        width: 100vw;
+        background-color: rgb(40, 116, 240);
+        display: flex;
+        align-items: center;
+        /* position: fixed; */
+        z-index: -11;
+    }
+    
+
+    .logoold{
+        display: none;
+    }
+
+    .logonew{
+        display: block ;
+        zoom: 80%;
+        padding-bottom: 90px;
+        
+
+    }
+
+    .fabar{
+        display: block;
+        zoom: 43%;
+        padding-bottom: 105px;
+        
+    }
+
+    .lbut{
+        display: none;
+    }
+
+    .sbox2 {
+        padding: 8px 30px 8px 14px;
+    }
+
+    
+.logo{
+    padding-left: 16px;
+    padding-bottom: 20px;
+
+}
+
+.sbox{
+    position: absolute;
+    display: inline-block;
+    padding-top: 60px;
+}
+
+.more{
+    display: none;
+}
+
+ 
+.tcart{
+    display: none;
+}
+
+
+
+.bell{
+    display: block;
+    zoom: 50%;
+    position: absolute;
+    top: 20px;
+    right: 107px;
+
+}
+
+.cart{
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 28px;
+}
+
+.sbox2{
+    width: 94vw;
+}
+
+.nav{
+    position: absolute;
+    
+}
+
+
+
+
+#carousel figure img {
+    padding: 0px;
+    height: 305px;
+    float: left;
+    width: 20%;
+}
+
+
+#carousel figure {
+    position: relative;
+    top: 114px;
+    margin-top: 0px;
+    width: 500%;
+    margin: 0px;
+    animation: 12s carousel infinite;
+}
+
+.elec{
+    display: none;
+}
+
+.deal{
+    display: none;
+}
+
+.fix{
+    display: none;
+}
+
+.bottom{
+    display: none;
+}
+
+.dflex{
+    display: none;
+}
+
+.si{
+    display: none;
+}
+
+
+.bnav{
+    display: none;
+}
+
+.bnav2{
+    display: block;
+}
+ 
 }
 
 
