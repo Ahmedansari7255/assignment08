@@ -491,7 +491,7 @@ body{
 
 #carousel figure {
     position: relative;
-    top: 114px;
+    top: 14vh;
     margin-top: 0px;
     width: 500%;
     margin: 0px;
@@ -528,9 +528,22 @@ body{
 }
 
 .bnav2{
-    display: block;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 0.5rem;
+    zoom: 50%;
+    font-size: 30px;
+    font-weight: 500; 
+    height: 360px;
+    border: 2px solid transparent ;
+    box-shadow: 1px 1px 1px 1px rgb(206, 208, 210);
+
 }
  
+
 }
 
 
