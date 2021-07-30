@@ -353,6 +353,12 @@ body{
     display: none;
 }
 
+.travel{
+    display: none;
+}
+
+
+
 
 
 
@@ -497,6 +503,7 @@ body{
     height: 305px;
     float: left;
     width: 20%;
+    
 }
 
 
@@ -538,22 +545,50 @@ body{
     display: none;
 }
 
+.travel{
+    display: flex;
+
+}
+
 .bnav2{
+    margin-top: 12px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
-    padding-top: 0.5rem;
+    padding-top: 1.5rem;
     zoom: 50%;
-    font-size: 30px;
-    font-weight: 500; 
-    height: 360px;
-    border: 2px solid transparent ;
-    box-shadow: 1px 1px 1px 1px rgb(206, 208, 210);
+    font-size: 28px;
+    font-weight: 500;
+    height: 62.5vh;
+    border: 2px solid transparent;
+    box-shadow: 1px 1px 2px 1px rgb(206 ,208, 210);
+    overflow-wrap: hidden;
 
 }
- 
+
+.eardopes img{
+    display: block;
+    margin: 4px auto;
+    height: 20vh ;
+    width: 98vw;
+    border: 1px solid transparent;
+    padding: 4px 4px 4px 4px; 
+    box-shadow: 1px 1px 2px 1px rgb(206 ,208, 210);
+
+    
+    
+    
+    
+}
+
+.eardopes{
+    margin-top: 12px;
+    height: 22vh;
+    width: 100vw;
+    /* border: 1px solid black; */
+}
 
 }
 
