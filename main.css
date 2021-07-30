@@ -349,6 +349,10 @@ body{
     display: none;
 }
 
+.mobile{
+    display: none;
+}
+
 
 
 
@@ -478,10 +482,17 @@ body{
     
 }
 
+.desktop{
+    display: none;
+}
 
+.mobile{
+    display: inline;
+}
 
 
 #carousel figure img {
+    
     padding: 0px;
     height: 305px;
     float: left;
