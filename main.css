@@ -140,20 +140,6 @@ body{
 
 }
 
-/* top offers */
-/* 
-.topoffers{
-    margin: 8px;
-    width: 233px;
-    height: 350px;
-    background-color: burlywood;
-    border: 1px solid transparent;
-    display: inline-block;
-} */
-
-
-
-
 .elec{
     margin-left: 16px;
     display: inline-block;
@@ -163,7 +149,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* float: right; */
     margin-right: 264px;
     text-align: center;
     border-radius: 2px;
@@ -357,6 +342,28 @@ body{
     display: none;
 }
 
+.eardopes{
+    display: none;
+}
+
+.tri{
+    display: none;
+}
+
+.mic{
+    display: none;
+}
+
+.quadpic{
+    display: none;
+}
+
+.tri2{
+    display: none;
+}
+
+
+
 
 
 
@@ -481,6 +488,7 @@ body{
 
 .sbox2{
     width: 94vw;
+    padding: 8px 30px 8px 32px;
 }
 
 .nav{
@@ -500,7 +508,7 @@ body{
 #carousel figure img {
     
     padding: 0px;
-    height: 305px;
+    height: 40.13vh;
     float: left;
     width: 20%;
     
@@ -559,12 +567,13 @@ body{
     text-align: center;
     padding-top: 1.5rem;
     zoom: 50%;
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: 500;
     height: 62.5vh;
     border: 2px solid transparent;
-    box-shadow: 1px 1px 2px 1px rgb(206 ,208, 210);
+    box-shadow: 1px 1px 2px 2px rgb(206 ,208, 210);
     overflow-wrap: hidden;
+    
 
 }
 
@@ -584,18 +593,209 @@ body{
 }
 
 .eardopes{
-    margin-top: 12px;
+    display: block;
+    margin-top: 10px;
     height: 22vh;
     width: 100vw;
     /* border: 1px solid black; */
 }
 
+.phones{
+    height: 120px;
+    width: 120px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 1px rgb(206 ,208, 210);
+}
+
+.tri{
+    display: flex;
+    height: 19.73vh;
+    width: 100vw;
+    border: 1px solid transparent;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 1px 1px 2px 1px rgb(206 ,208, 210);
+}
+
+.tri div img{
+    height: 65%;
+    width: 100%;
+}
+
+.tri div p{
+    font-weight: 500;
+    font-size: 0.9em;
+    text-indent: 0.5em;
+}
+
+
+.tri div span{
+    font-weight: 400;
+    font-size: 0.9em;
+    padding-left: 0.5em;
+    color: rgb(117, 117, 117);
+}
+
+
+.quadpic{
+    margin-top: 8px;
+    width: 100vw;
+    height: 62.5vh;
+    background-image: url('img/purplebg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.topquad button{
+    color: whitesmoke;
+    font-size: 1rem;
+    padding: 8px 16px 8px 16px;
+    border: 1px solid transparent;
+    background-color: rgb(40, 116, 240);
+    box-shadow: 0px 0px 2px 0px rgb(33, 95, 196);
+}
+
+.quadpic article{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50.13vh;
+    width: 97vw;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 5.26vh;
+    box-shadow: 0px 2px 0px 0px rgb(206 ,208, 210);
+    
+}
+
+.quadpic article div img{
+    zoom: 30%;
+    padding: 32px;
+    
+    
+    
+}
+
+.quadpic article div{
+    text-align: center;
+    height:25vh;
+    width:48.34vw;
+    border: 1px solid rgb(206 ,208, 210);
+   
+    
+}
+
+.quadpic article div p{
+    color: rgb(117, 117, 117) ;
+
+}
+
+
+.quadpic article div span{
+    font-weight: 400;
+    color: rgb(56, 142, 60);
+
+}
+
+.topquad p{
+    font-size: 1.3rem;
+}
+
+.topquad{
+    padding-top: 3.68vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.tri2{
+    margin-top: 16px;
+    display: flex;
+    height: 36.73vh;
+    width: 100vw;
+    border: 1px solid transparent;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 1px 1px 2px 1px rgb(206, 208, 210);
+}
+
+.tri2 div img{
+    height: 65%;
+    width: 97%;
+    padding-left: 4px;
+}
+
+.tri2 div p{
+    font-weight: 500;
+    font-size: 0.9em;
+    text-indent: 0.5em;
+}
+
+
+.tri2 div span{
+    font-weight: 400;
+    font-size: 0.9em;
+    padding-left: 0.5em;
+    color: rgb(117, 117, 117);
+}
+
+.phones2{
+    line-height: 1.3rem;
+}
+
+.green2{
+    color: rgb(56, 142, 60);
+    font-weight: 500;
+    font-size: 1.5rem;
+
+}
+
+
+.green3{
+    color: rgb(56, 142, 60);
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: auto 16px;
+}
+
+.visa{
+    zoom: 90%;
+}
+
+
+.si{
+    display: flex;
+    zoom: 6%;
+    position: relative;
+    left: -3043px;
+    top: 389px;
+    z-index: 5;
+
+    
+}
+
+
+.mic{
+    display: flex;
+    zoom: 8%;
+    position: relative;
+    top: 300px;
+    left: 1528px;
+    z-index: 5;
+
+    
 }
 
 
 
-
-
-
-
-
+}
